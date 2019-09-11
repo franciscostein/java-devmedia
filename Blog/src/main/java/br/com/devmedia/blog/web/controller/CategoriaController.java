@@ -1,0 +1,101 @@
+package br.com.devmedia.blog.web.controller;
+
+import br.com.devmedia.blog.Service.CategoriaService;
+import br.com.devmedia.blog.entity.Categoria;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+@RequestMapping("categoria")
+public class CategoriaController {
+
+    @Autowired
+    private CategoriaService service;
+
+    @RequestMapping(value = "/page/{page}", method = RequestMethod.GET)
+    public ModelAndView pageCategorias(@PathVariable("page") Integer pagina,
+                                       @ModelAttribute("categoria") Categoria categoria) {
+
+        ModelAndView view = new ModelAndView("categoria/cadastro");
+
+        //Array trabalha com indice apartir de 0, mas a primeira pagina lรก vai ser 1
+        Page<Categoria> page = service.findByPagination(pagina - 1, 5);
+
+        view.addObject("page", page);
+        view.addObject("urlPagination", "/categoria/page");
+
+        return view;
+    }
+
+    @RequestMapping(value = "/update/{id}", method = RequestMethod.GET)
+    public ModelAndView preUpdate(@PathVariable("id") Long id, ModelMap model) {
+
+        Categoria categoria = service.findById(id);
+
+        Page<Categoria> page = service.findByPagination(0, 5);
+
+        model.addAttribute("categoria", categoria);
+
+        //model.addAttribute("categorias", service.findAll());
+
+        model.addAttribute("page", page);
+        model.addAttribute("urlPagination", "/categoria/page");
+
+        return new ModelAndView("categoria/cadastro", model);
+    }
+
+    @RequestMapping(value = "/delete/{id}", method = RequestMethod.GET)
+    public String delete(@PathVariable("id") Long id) {
+
+        service.delete(id);
+
+        return "redirect:/categoria/add";
+    }
+
+    @RequestMapping(value = "/save", method = RequestMethod.POST)
+    public ModelAndView save(@ModelAttribute("categoria") @Validated Categoria categoria, BindingResult result) {
+
+        ModelAndView view = new ModelAndView();
+
+        if (result.hasErrors()) {
+
+            Page<Categoria> page = service.findByPagination(0, 5);
+
+            view.addObject("page", page);
+            view.addObject("urlPagination", "/categoria/page");
+            view.setViewName("categoria/cadastro");
+
+            return view;
+        }
+
+        service.saveOrUpdate(categoria);
+
+        view.setViewName("redirect:/categoria/add");
+
+        return view;
+    }
+
+    @RequestMapping(value = "/add", method = RequestMethod.GET)
+    public ModelAndView cadastro(@ModelAttribute("categoria") Categoria categoria) {
+
+        ModelAndView view = new ModelAndView();
+
+        Page<Categoria> page = service.findByPagination(0, 5);
+
+        //view.addObject("categorias", service.findAll());
+        view.addObject("page", page);
+        view.addObject("urlPagination", "/categoria/page");
+        view.setViewName("categoria/cadastro");
+
+        return view;
+    }
+}

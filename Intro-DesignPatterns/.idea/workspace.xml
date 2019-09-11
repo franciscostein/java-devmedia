@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98322900-fd80-416e-a026-a7a41c4930f8" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part10/SlotMachineTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Singleton" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Lectures.lecture8.part7.</find>
+      <find>Lectures.lecture8.part8.</find>
+      <find>Lectures.lecture8.part10.</find>
+      <find>Lectures.lecture8.part9.</find>
+      <find>Lectures.lecture8.part12.</find>
+      <find>Lectures.lecture8.part11.</find>
+      <find>Customer</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Product</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture9/part13/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture9/part13/MovieType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture9/part13/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture9/part13/AccountText.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture9/part13/AccountHTML.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture9/part14/Rental.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture9/part14/AccountText.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture9/part14/AccountHTML.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture9/part14/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture9/part14/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern_part1/Figure.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern_part1/SlotMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern_part2/SlotMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern_part3/Figure.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern_part3/SlotMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern_part4/SlotMachineTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern_part4/SlotMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern/without_pattern_part4/SlotMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern/part4/SlotMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern/part5/SlotMachineTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern/part5/SlotMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern/part6/Figure.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part6/SlotMachineTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part6/State.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part7/SlotMachineTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part7/State.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part7/WaitingLeverPull.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part7/Drawing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part7/PayingPrize.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part7/EmptyMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part7/WaitingCoin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part7/SlotMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part8/State.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part8/EmptyMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part8/PayingPrize.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part8/Drawing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part8/SlotMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part8/WaitingLeverPull.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part9/EmptyMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part9/PayingPrize.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part9/WaitingLeverPull.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part9/State.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part9/SlotMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part10/SlotMachineTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part10/WaitingLeverPull.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part10/State.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part10/SlotMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part10/Drawing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part10/EmptyMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part10/PayingPrize.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part10/WaitingCoin.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Intro-DesignPatterns" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Intro-DesignPatterns" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Intro-DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intro-DesignPatterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Intro-DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intro-DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Intro-DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intro-DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Intro-DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intro-DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Intro-DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intro-DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Lectures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Intro-DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intro-DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Lectures" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Intro-DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intro-DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Lectures" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture10" type="462c0819:PsiDirectoryNode" />
+              <item name="with_pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Intro-DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intro-DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Lectures" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture10" type="462c0819:PsiDirectoryNode" />
+              <item name="with_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="part10" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="plugins&#9;ACTION&#9;WelcomeScreen.Plugins" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547085879478" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lecture4/part6/dependency" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propGUI" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Lectures.lecture10.with_pattern.part7" />
+      <recent name="Lectures.lecture10.without_pattern_part1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Files\Java\Projects\Intro-DesignPatterns\src\main\java\Lectures\lecture10\with_pattern\part10" />
+      <recent name="D:\Files\Java\Projects\Intro-DesignPatterns\src\main\java\Lectures\lecture10\with_pattern\part9" />
+      <recent name="D:\Files\Java\Projects\Intro-DesignPatterns\src\main\java\Lectures\lecture10\with_pattern\part8" />
+      <recent name="D:\Files\Java\Projects\Intro-DesignPatterns\src\main\java\Lectures\lecture10\with_pattern\part7" />
+      <recent name="D:\Files\Java\Projects\Intro-DesignPatterns\src\main\java\Lectures\lecture10\with_pattern\part6" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lectures.lecture8.part19.integration" />
+      <recent name="Lectures.lecture8.part10" />
+      <recent name="lecture6.part3" />
+      <recent name="lecture2.part6" />
+      <recent name="lecture2.part4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\Java\Projects\Intro-DesignPatterns" />
+      <recent name="D:\Documents\Java\Projects\Intro-DesignPatterns\ConcreteFactory" />
+      <recent name="D:\Documents\Java\Projects\Intro-DesignPatterns\DesignPatternLectures" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SlotMachineTest (5)">
+    <configuration name="SlotMachineTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lectures.lecture10.without_pattern.part5.SlotMachineTest" />
+      <module name="Intro-DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lectures.lecture10.without_pattern.part5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlotMachineTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lectures.lecture10.without_pattern.part6.SlotMachineTest" />
+      <module name="Intro-DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lectures.lecture10.without_pattern.part6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlotMachineTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lectures.lecture10.with_pattern.part6.SlotMachineTest" />
+      <module name="Intro-DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lectures.lecture10.with_pattern.part6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlotMachineTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lectures.lecture10.with_pattern.part9.SlotMachineTest" />
+      <module name="Intro-DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lectures.lecture10.with_pattern.part9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlotMachineTest (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lectures.lecture10.with_pattern.part10.SlotMachineTest" />
+      <module name="Intro-DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lectures.lecture10.with_pattern.part10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SlotMachineTest (1)" />
+      <item itemvalue="Application.SlotMachineTest (2)" />
+      <item itemvalue="Application.SlotMachineTest (3)" />
+      <item itemvalue="Application.SlotMachineTest (4)" />
+      <item itemvalue="Application.SlotMachineTest (5)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SlotMachineTest (5)" />
+        <item itemvalue="Application.SlotMachineTest (4)" />
+        <item itemvalue="Application.SlotMachineTest (3)" />
+        <item itemvalue="Application.SlotMachineTest (2)" />
+        <item itemvalue="Application.SlotMachineTest (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98322900-fd80-416e-a026-a7a41c4930f8" name="Default Changelist" comment="" />
+      <created>1543331068979</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543331068979</updated>
+      <workItem from="1543331070897" duration="3507000" />
+      <workItem from="1543367770732" duration="2448000" />
+      <workItem from="1543416750916" duration="5492000" />
+      <workItem from="1543532475640" duration="2797000" />
+      <workItem from="1543588047558" duration="5066000" />
+      <workItem from="1543777813007" duration="2749000" />
+      <workItem from="1544195338605" duration="3139000" />
+      <workItem from="1544293416071" duration="3675000" />
+      <workItem from="1544486435670" duration="6014000" />
+      <workItem from="1544627664361" duration="3370000" />
+      <workItem from="1544712967089" duration="3599000" />
+      <workItem from="1544740476534" duration="8030000" />
+      <workItem from="1544800764488" duration="1370000" />
+      <workItem from="1544887729171" duration="3592000" />
+      <workItem from="1545056665106" duration="5046000" />
+      <workItem from="1545143158415" duration="5591000" />
+      <workItem from="1545230574307" duration="3704000" />
+      <workItem from="1545318588431" duration="2421000" />
+      <workItem from="1545833863536" duration="4741000" />
+      <workItem from="1545860279163" duration="6722000" />
+      <workItem from="1545921786305" duration="3311000" />
+      <workItem from="1545947484013" duration="5317000" />
+      <workItem from="1545955608601" duration="631000" />
+      <workItem from="1546006776039" duration="9236000" />
+      <workItem from="1546888829452" duration="4110000" />
+      <workItem from="1546979805167" duration="600000" />
+      <workItem from="1546987186406" duration="7345000" />
+      <workItem from="1547066321207" duration="5591000" />
+      <workItem from="1547074936192" duration="9240000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestCustomer_(3) - 2019.01.08 at 22h 33m 18s.xml">
+      <configuration name="TestCustomer (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCustomer_(3) - 2019.01.08 at 22h 34m 12s.xml">
+      <configuration name="TestCustomer (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCustomer_(3) - 2019.01.08 at 22h 35m 55s.xml">
+      <configuration name="TestCustomer (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCustomer_(3) - 2019.01.08 at 22h 37m 29s.xml">
+      <configuration name="TestCustomer (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCustomer_(4) - 2019.01.08 at 22h 38m 24s.xml">
+      <configuration name="TestCustomer (4)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCustomer_(4) - 2019.01.08 at 22h 45m 33s.xml">
+      <configuration name="TestCustomer (4)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCustomer_(4) - 2019.01.08 at 22h 45m 56s.xml">
+      <configuration name="TestCustomer (4)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCustomer_(4) - 2019.01.08 at 22h 47m 23s.xml">
+      <configuration name="TestCustomer (4)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCustomer_(4) - 2019.01.08 at 22h 49m 25s.xml">
+      <configuration name="TestCustomer (4)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCustomer_(4) - 2019.01.08 at 22h 49m 46s.xml">
+      <configuration name="TestCustomer (4)" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="128454000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1359375" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Persistence" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30876067" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994778" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32799146" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="CDI" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3131524" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Persistence" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32478634" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3994778" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32898173" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="right" id="CDI" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern/part3/Figure.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern/part3/SlotMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="144" column="18" selection-start-line="144" selection-start-column="18" selection-end-line="144" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern/part4/Figure.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern/part4/SlotMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="151" column="17" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern/part4/SlotMachineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern/part5/Figure.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern/part5/SlotMachineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern/part5/SlotMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="113" column="45" lean-forward="true" selection-start-line="113" selection-start-column="45" selection-end-line="113" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern/part6/Figure.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern/part6/SlotMachineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/without_pattern/part6/SlotMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part6/Figure.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part6/SlotMachineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part6/SlotMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-748">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part6/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part7/Figure.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part7/SlotMachineTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part7/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part7/WaitingLeverPull.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part7/Drawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part7/EmptyMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part7/WaitingCoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part7/PayingPrize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part7/SlotMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="e#5197#5198#0" expanded="true" />
+            <element signature="e#5216#5217#0" expanded="true" />
+            <element signature="e#5679#5680#0" expanded="true" />
+            <element signature="e#5714#5715#0" expanded="true" />
+            <element signature="e#5751#5752#0" expanded="true" />
+            <element signature="e#5785#5786#0" expanded="true" />
+            <element signature="e#5827#5828#0" expanded="true" />
+            <element signature="e#5866#5867#0" expanded="true" />
+            <element signature="e#5899#5900#0" expanded="true" />
+            <element signature="e#5929#5930#0" expanded="true" />
+            <element signature="e#5966#5967#0" expanded="true" />
+            <element signature="e#6000#6001#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part8/Figure.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part8/State.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part8/SlotMachineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part8/EmptyMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="85" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part8/PayingPrize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part8/Drawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+          <folding>
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part8/WaitingCoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part8/SlotMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="65" column="81" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="81" />
+          <folding>
+            <element signature="e#6026#6027#0" expanded="true" />
+            <element signature="e#6054#6055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part8/WaitingLeverPull.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part9/Figure.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part9/WaitingCoin.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part9/Drawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part9/EmptyMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part9/PayingPrize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part9/WaitingLeverPull.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part9/SlotMachineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part9/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part9/SlotMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
+          <folding>
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
+            <element signature="e#1418#1419#0" expanded="true" />
+            <element signature="e#3147#3148#0" expanded="true" />
+            <element signature="e#3180#3181#0" expanded="true" />
+            <element signature="e#3229#3230#0" expanded="true" />
+            <element signature="e#3273#3274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part10/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part10/Drawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part10/EmptyMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part10/PayingPrize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part10/Figure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part10/SlotMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-421">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <element signature="e#1466#1467#0" expanded="true" />
+            <element signature="e#1507#1508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part10/WaitingCoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part10/WaitingLeverPull.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="56" lean-forward="true" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lectures/lecture10/with_pattern/part10/SlotMachineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>unnamed</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>JPA</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Intro-DesignPatterns</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

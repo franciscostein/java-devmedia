@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CRUD-WEB">
+    <output-path>$PROJECT_DIR$/out/artifacts/CRUD_WEB</output-path>
+    <root id="archive" name="CRUD-WEB.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CRUD-WEB" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql:mysql-connector-java:5.1.45" />
+          <element id="library" level="project" name="javax.servlet:javax.servlet-api:4.0.1" />
+          <element id="library" level="project" name="javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="displaytag:displaytag:1.2" />
+          <element id="library" level="project" name="cewolf:cewolf:1.2.4-java7" />
+          <element id="library" level="project" name="batik-awt-util-1.6" />
+          <element id="library" level="project" name="batik-dom-1.6" />
+          <element id="library" level="project" name="batik-svggen-1.6" />
+          <element id="library" level="project" name="batik-util-1.6" />
+          <element id="library" level="project" name="batik-xml-1.6" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="CRUD-WEB/web/Web" />
+    </root>
+  </artifact>
+</component>

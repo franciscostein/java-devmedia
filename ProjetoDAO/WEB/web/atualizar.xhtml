@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html" xml:lang="en" lang="en">
+
+<h:form>
+    <h:panelGrid columns="2">
+        <h:outputText value="ID:"></h:outputText>
+        <h:outputText value="#{cli.dto.id}"></h:outputText>
+        <h:outputText value="Nome:"></h:outputText>
+        <h:inputText value="#{cli.dto.nome}"></h:inputText>
+        <h:outputText value="E-mail:"></h:outputText>
+        <h:inputText value="#{cli.dto.email}"></h:inputText>
+        <h:commandButton value="Atualizar" action="#{cli.update}"></h:commandButton>
+        <h:commandButton value="Cancelar" action="listar" immediate="true"></h:commandButton>
+    </h:panelGrid>
+</h:form>
+</html>

@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [14/Sep/2018:15:59:27 -0300] "POST /crud1n/webapi/marcas/ HTTP/1.1" 500 27983 http-bio-8080-exec-2 4372
+0:0:0:0:0:0:0:1 - - [14/Sep/2018:16:02:55 -0300] "POST /crud1n/webapi/marcas/ HTTP/1.1" 201 50 http-bio-8080-exec-2 3677
+0:0:0:0:0:0:0:1 - - [14/Sep/2018:16:03:34 -0300] "POST /crud1n/webapi/marcas/ HTTP/1.1" 201 51 http-bio-8080-exec-3 67
+0:0:0:0:0:0:0:1 - - [14/Sep/2018:16:03:43 -0300] "GET /crud1n/webapi/marcas/ HTTP/1.1" 200 104 http-bio-8080-exec-4 982
+0:0:0:0:0:0:0:1 - - [14/Sep/2018:16:04:26 -0300] "POST /crud1n/webapi/produtos/ HTTP/1.1" 201 42 http-bio-8080-exec-5 62
+0:0:0:0:0:0:0:1 - - [14/Sep/2018:16:10:27 -0300] "PUT /crud1n/webapi/produtos/1 HTTP/1.1" 204 - http-bio-8080-exec-8 468

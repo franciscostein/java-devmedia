@@ -1,0 +1,16 @@
+C:\Users\Leandro\Documents\Java\autenticacao-e-autorizacao-ws-restful\src\main\java\br\com\devmedia\webservice\resources\beans\ConfiguracaoConsultaBean.java
+C:\Users\Leandro\Documents\Java\autenticacao-e-autorizacao-ws-restful\src\main\java\br\com\devmedia\webservice\domain\Tipo.java
+C:\Users\Leandro\Documents\Java\autenticacao-e-autorizacao-ws-restful\src\main\java\br\com\devmedia\webservice\domain\ErrorMessage.java
+C:\Users\Leandro\Documents\Java\autenticacao-e-autorizacao-ws-restful\src\main\java\br\com\devmedia\webservice\resources\UsuarioResource.java
+C:\Users\Leandro\Documents\Java\autenticacao-e-autorizacao-ws-restful\src\main\java\br\com\devmedia\webservice\resources\ImovelResource.java
+C:\Users\Leandro\Documents\Java\autenticacao-e-autorizacao-ws-restful\src\main\java\br\com\devmedia\webservice\service\ImovelService.java
+C:\Users\Leandro\Documents\Java\autenticacao-e-autorizacao-ws-restful\src\main\java\br\com\devmedia\webservice\resources\filter\AcessoRestrito.java
+C:\Users\Leandro\Documents\Java\autenticacao-e-autorizacao-ws-restful\src\main\java\br\com\devmedia\webservice\dao\ImovelDAO.java
+C:\Users\Leandro\Documents\Java\autenticacao-e-autorizacao-ws-restful\src\main\java\br\com\devmedia\webservice\dao\UsuarioDAO.java
+C:\Users\Leandro\Documents\Java\autenticacao-e-autorizacao-ws-restful\src\main\java\br\com\devmedia\webservice\service\UsuarioService.java
+C:\Users\Leandro\Documents\Java\autenticacao-e-autorizacao-ws-restful\src\main\java\br\com\devmedia\webservice\dao\JPAUtil.java
+C:\Users\Leandro\Documents\Java\autenticacao-e-autorizacao-ws-restful\src\main\java\br\com\devmedia\webservice\resources\filter\AuthenticationAndAuthorizationFilter.java
+C:\Users\Leandro\Documents\Java\autenticacao-e-autorizacao-ws-restful\src\main\java\br\com\devmedia\webservice\resources\BuscaResource.java
+C:\Users\Leandro\Documents\Java\autenticacao-e-autorizacao-ws-restful\src\main\java\br\com\devmedia\webservice\domain\Usuario.java
+C:\Users\Leandro\Documents\Java\autenticacao-e-autorizacao-ws-restful\src\main\java\br\com\devmedia\webservice\domain\Direcionamento.java
+C:\Users\Leandro\Documents\Java\autenticacao-e-autorizacao-ws-restful\src\main\java\br\com\devmedia\webservice\domain\Imovel.java

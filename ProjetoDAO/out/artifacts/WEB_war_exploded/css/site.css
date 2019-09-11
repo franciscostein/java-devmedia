@@ -1,0 +1,30 @@
+.listagem {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: whitesmoke;
+}
+
+.header {
+    font-family: Verdana;
+    font-size: 14px;
+    color: blue;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+.coluna1 {
+    font-family: Verdana;
+    font-size: 12px;
+    color: chartreuse;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+.coluna2 {
+    font-family: Verdana;
+    font-size: 12px;
+    color: aliceblue;
+    background-color: chartreuse;
+    padding: 5px;
+}

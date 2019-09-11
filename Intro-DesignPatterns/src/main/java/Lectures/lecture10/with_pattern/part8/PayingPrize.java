@@ -1,0 +1,23 @@
+package Lectures.lecture10.with_pattern.part8;
+
+public class PayingPrize extends State {
+
+    public PayingPrize(SlotMachine machine) {
+        super(machine);
+    }
+
+    @Override
+    public void insertCoin() {
+        System.out.println("Waiting the prize be paid");
+    }
+
+    @Override
+    public void ejectCoin() {
+        System.out.println("Do you want the prize and your coin? No way Jose!");
+    }
+
+    @Override
+    public void pullLever() {
+        System.out.println("Wait for the prize and insert another coin before pulling the lever.");
+    }
+}

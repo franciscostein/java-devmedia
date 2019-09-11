@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="IntroSpringMvcJpaThymeleaf:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="intro-spring-thymeleaf.war">
+      <element id="artifact" artifact-name="IntroSpringMvcJpaThymeleaf:war exploded" />
+    </root>
+  </artifact>
+</component>

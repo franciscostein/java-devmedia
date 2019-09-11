@@ -1,0 +1,15 @@
+D:\Documents\Java Projects\crud1nRESTful\src\main\java\br\com\devmedia\webservice\model\domain\Marca.java
+D:\Documents\Java Projects\crud1nRESTful\src\main\java\br\com\devmedia\webservice\resources\ProdutoResource.java
+D:\Documents\Java Projects\crud1nRESTful\src\main\java\br\com\devmedia\webservice\exceptions\DAOExceptionMapper.java
+D:\Documents\Java Projects\crud1nRESTful\src\main\java\br\com\devmedia\webservice\exceptions\ErrorCode.java
+D:\Documents\Java Projects\crud1nRESTful\src\main\java\br\com\devmedia\webservice\model\dao\JPAUtil.java
+D:\Documents\Java Projects\crud1nRESTful\src\main\java\br\com\devmedia\webservice\resources\beans\FilterBean.java
+D:\Documents\Java Projects\crud1nRESTful\src\main\java\br\com\devmedia\webservice\model\dao\ProdutoDAO.java
+D:\Documents\Java Projects\crud1nRESTful\src\main\java\br\com\devmedia\webservice\model\domain\Produto.java
+D:\Documents\Java Projects\crud1nRESTful\src\main\java\br\com\devmedia\webservice\service\ProdutoService.java
+D:\Documents\Java Projects\crud1nRESTful\src\main\java\br\com\devmedia\webservice\exceptions\DAOException.java
+D:\Documents\Java Projects\crud1nRESTful\src\main\java\br\com\devmedia\webservice\resources\MarcaResource.java
+D:\Documents\Java Projects\crud1nRESTful\src\main\java\br\com\devmedia\webservice\service\MarcaService.java
+D:\Documents\Java Projects\crud1nRESTful\src\main\java\br\com\devmedia\webservice\model\domain\ErrorMessage.java
+D:\Documents\Java Projects\crud1nRESTful\src\main\java\br\com\devmedia\webservice\exceptions\WebAPIExceptionMapper.java
+D:\Documents\Java Projects\crud1nRESTful\src\main\java\br\com\devmedia\webservice\model\dao\MarcaDAO.java

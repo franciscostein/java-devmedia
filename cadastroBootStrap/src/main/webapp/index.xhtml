@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html lang="pt-br"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:jsf="http://xmlns.jcp.org/jsf">
+    <head jsf:id="head">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+        <title>Cadastro</title>
+
+        <link rel="stylesheet" type="text/css"
+              href="#{request.contextPath}/resources/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <h:outputStylesheet name="css/stylesheet.css"/>
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body jsf:id="body">
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/">Cadastro</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2">
+                    <form jsf:id="form" jsf:prependId="false">
+                        <fieldset>
+                            <legend>Dados pessoais</legend>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group #{!nome.valid ? 'has-error' : ''}">
+                                        <label jsf:for="nome">Nome</label>
+                                        <input type="text"
+                                               jsf:id="nome"
+                                               jsf:binding="#{nome}"
+                                               class="form-control"
+                                               placeholder="Meu Nome"
+                                               jsf:value="#{cadastroBean.cadastro.nome}"
+                                               required="required"/>
+
+                                        <h:message for="nome" styleClass="text-danger"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="form-group #{!cpf.valid ? 'has-error' : ''}">
+                                        <label jsf:for="cpf">CPF</label>
+                                        <input type="text"
+                                               jsf:id="cpf"
+                                               jsf:binding="#{cpf}"
+                                               class="form-control"
+                                               placeholder="000.000.000-00"
+                                               jsf:value="#{cadastroBean.cadastro.cpf}"
+                                               required="required"/>
+
+                                        <h:message for="cpf" styleClass="text-danger"/>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="form-group #{!dataNascimento.valid ? 'has-error' : ''}">
+                                        <label jsf:for="dataNascimento">Data Nascimento</label>
+                                        <input type="date"
+                                               jsf:id="dataNascimento"
+                                               jsf:binding="#{dataNascimento}"
+                                               class="form-control"
+                                               jsf:value="#{cadastroBean.cadastro.dataNascimento}"
+                                               required="required">
+                                            <f:convertDateTime pattern="yyyy-MM-dd" timeZone="#{initParam.timezone}"/>
+                                        </input>
+
+                                        <h:message for="dataNascimento" styleClass="text-danger"/>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-4">
+                                    <div class="form-group">
+                                        <label class="control-label">Sexo</label>
+
+                                        <f:viewParam name="sexo" value="#{cadastroBean.cadastro.sexo}"/>
+
+                                        <div>
+                                            <label class="radio-inline">
+                                                <input type="radio"
+                                                       jsf:id="sexoMasculino"
+                                                       a:name="sexo"
+                                                       jsf:value="#{cadastroBean.sexo[0]}"
+                                                       checked="checked"/> Masculino
+                                            </label>
+
+                                            <label class="radio-inline">
+                                                <input type="radio"
+                                                       jsf:id="sexoFeminino"
+                                                       a:name="sexo"
+                                                       jsf:value="#{cadastroBean.sexo[1]}"/> Feminino
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-group">
+                                        <label jsf:for="estadoCivil">Estado Civil</label>
+                                        <select jsf:id="estadoCivil"
+                                                size="1"
+                                                class="form-control"
+                                                jsf:value="#{cadastroBean.cadastro.estadoCivil}"
+                                                required="required">
+                                            <ui:repeat value="#{cadastroBean.estadoCivil}"
+                                                       var="estadoCivil"
+                                                       itemLabel="#{estadoCivil.descricao}"
+                                                       itemValue="#{estadoCivil}"
+                                                       jsfc="f:selectItems">
+                                            </ui:repeat>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-group #{!rendaMensal.valid ? 'has-error' : ''}">
+                                        <label jsf:for="rendaMensal">Renda Mensal</label>
+                                        <input type="text"
+                                               class="form-control"
+                                               jsf:id="rendaMensal"
+                                               jsf:binding="#{rendaMensal}"
+                                               jsf:value="#{cadastroBean.cadastro.rendaMensal}"
+                                               placeholder="0,00"
+                                               required="required">
+                                            <f:convertNumber pattern="#,##0.00"/>
+                                        </input>
+
+                                        <h:message for="rendaMensal" styleClass="text-danger"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Endereço</legend>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-group #{!logradouro.valid ? 'has-error' : ''}">
+                                        <label jsf:for="logradouro">Logradouro</label>
+                                        <input type="text"
+                                               class="form-control"
+                                               jsf:id="logradouro"
+                                               jsf:binding="#{logradouro}"
+                                               placeholder="Av. Paulista"
+                                               jsf:value="#{cadastroBean.cadastro.logradouro}"
+                                               required="required"/>
+
+                                        <h:message for="logradouro" styleClass="text-danger"/>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-3">
+                                    <div class="form-group #{!numero.valid ? 'has-error' : ''}">
+                                        <label jsf:for="numero">Número</label>
+                                        <input type="number"
+                                               class="form-control"
+                                               jsf:id="numero"
+                                               jsf:binding="#{numero}"
+                                               min="1"
+                                               placeholder="Nº"
+                                               jsf:value="#{cadastroBean.cadastro.numero}"
+                                               required="required"/>
+
+                                        <h:message for="numero" styleClass="text-danger"/>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-3">
+                                    <div class="form-group #{!complemento.valid ? 'has-error' : ''}">
+                                        <label jsf:for="complemento">Complemento</label>
+                                        <input type="text"
+                                               class="form-control"
+                                               jsf:id="complemento"
+                                               jsf:binding="#{complemento}"
+                                               placeholder="Casa, Apto, Loja"
+                                               jsf:value="#{cadastroBean.cadastro.complemento}"
+                                               required="required"/>
+
+                                        <h:message for="complemento" styleClass="text-danger"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-group">
+                                        <label jsf:for="estado">Estado</label>
+                                        <select jsf:id="estado"
+                                                size="1"
+                                                class="form-control"
+                                                jsf:value="#{cadastroBean.cadastro.estado}"
+                                                required="required">
+                                            <ui:repeat value="#{cadastroBean.estado}"
+                                                       var="estado"
+                                                       itemLabel="#{estado.nome}"
+                                                       itemValue="#{estado}"
+                                                       jsfc="f:selectItems">
+                                            </ui:repeat>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-group #{!cidade.valid ? 'has-error' : ''}">
+                                        <label jsf:for="cidade">Cidade</label>
+                                        <input type="text"
+                                               class="form-control"
+                                               jsf:id="cidade"
+                                               jsf:binding="#{cidade}"
+                                               placeholder="São Paulo"
+                                               jsf:value="#{cadastroBean.cadastro.cidade}"
+                                               required="required"/>
+
+                                        <h:message for="cidade" styleClass="text-danger"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <input type="submit"
+                               class="btn btn-primary"
+                               jsf:action="#{cadastroBean.cadastrar}"
+                               value="Enviar"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <h:outputScript name="js/jquery-3.2.1.min.js"/>
+        <h:outputScript name="bootstrap/3.3.7/js/bootstrap.min.js"/>
+        <h:outputScript name="js/jquery.mask.min.js"/>
+        <h:outputScript name="js/jquery.maskMoney.min.js"/>
+        <h:outputScript name="js/jquery.validate.min.js"/>
+        <h:outputScript name="js/additional-methods.min.js"/>
+        <h:outputScript name="js/localization/messages_pt_BR.min.js"/>
+        <h:outputScript name="js/script.js"/>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="apidocs">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../Java Lib/commons-beanutils-1.9.3-bin.zip!/commons-beanutils-1.9.3/apidocs" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

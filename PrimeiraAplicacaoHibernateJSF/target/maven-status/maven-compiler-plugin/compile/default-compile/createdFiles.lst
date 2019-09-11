@@ -1,0 +1,5 @@
+bean\LembreteBean.class
+dao\LembreteDAO.class
+model\Lembrete.class
+model\Prioridade.class
+bean\JpaResourceBean.class

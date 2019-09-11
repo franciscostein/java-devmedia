@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [13/Aug/2018:14:11:47 -0300] "GET / HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [13/Aug/2018:14:12:01 -0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [13/Aug/2018:14:12:02 -0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [13/Aug/2018:14:12:07 -0300] "GET /index HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [13/Aug/2018:14:12:12 -0300] "GET /index.jsp HTTP/1.1" 404 - http-bio-8080-exec-5 0
+0:0:0:0:0:0:0:1 - - [13/Aug/2018:22:15:51 -0300] "GET /index.jsp HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [13/Aug/2018:22:15:51 -0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [13/Aug/2018:22:15:51 -0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [13/Aug/2018:22:18:26 -0300] "GET /lembretes/index.xhtml HTTP/1.1" 200 827 http-bio-8080-exec-1 755
+0:0:0:0:0:0:0:1 - - [13/Aug/2018:22:18:30 -0300] "GET /lembretes/adicionar.xhtml HTTP/1.1" 200 186 http-bio-8080-exec-2 15
+0:0:0:0:0:0:0:1 - - [13/Aug/2018:22:50:04 -0300] "GET /lembretes.xhtml HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [13/Aug/2018:22:50:13 -0300] "GET /lembretes/index.xhtml HTTP/1.1" 200 1142 http-bio-8080-exec-2 454
+0:0:0:0:0:0:0:1 - - [13/Aug/2018:22:50:45 -0300] "POST /lembretes/index.xhtml HTTP/1.1" 302 - http-bio-8080-exec-3 250
+0:0:0:0:0:0:0:1 - - [13/Aug/2018:22:50:45 -0300] "GET /lembretes/index.xhtml HTTP/1.1" 200 1192 http-bio-8080-exec-4 15
+0:0:0:0:0:0:0:1 - - [13/Aug/2018:22:50:53 -0300] "GET /lembretes/index.xhtml HTTP/1.1" 200 1141 http-bio-8080-exec-5 15

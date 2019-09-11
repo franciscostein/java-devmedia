@@ -1,0 +1,10 @@
+br\com\devmedia\cursos\oqueecdi\unitedburger\service\ContatoService.class
+br\com\devmedia\cursos\oqueecdi\unitedburger\domain\bean\ContatoBean.class
+br\com\devmedia\cursos\oqueecdi\unitedburger\service\NotificacaoService.class
+br\com\devmedia\cursos\oqueecdi\unitedburger\domain\qualifier\ParceriasQualifier.class
+br\com\devmedia\cursos\oqueecdi\unitedburger\domain\model\Notificacao.class
+br\com\devmedia\cursos\oqueecdi\unitedburger\domain\model\Contato.class
+br\com\devmedia\cursos\oqueecdi\unitedburger\domain\dao\ContatoDao.class
+br\com\devmedia\cursos\oqueecdi\unitedburger\domain\qualifier\UnitedBurgerQualifier.class
+br\com\devmedia\cursos\oqueecdi\unitedburger\domain\producer\EntityManagerProducer.class
+br\com\devmedia\cursos\oqueecdi\unitedburger\domain\dao\NotificacaoDao.class

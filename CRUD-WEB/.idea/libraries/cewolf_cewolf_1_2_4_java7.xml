@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="cewolf:cewolf:1.2.4-java7" type="repository">
+    <properties maven-id="cewolf:cewolf:1.2.4-java7" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/cewolf/cewolf/1.2.4-java7/cewolf-1.2.4-java7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jfree/jcommon/1.0.23/jcommon-1.0.23.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/batik/batik-xml/1.6/batik-xml-1.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/batik/batik-dom/1.6/batik-dom-1.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/batik/batik-svggen/1.6-1/batik-svggen-1.6-1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/batik/batik-awt-util/1.6/batik-awt-util-1.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/batik/batik-util/1.6/batik-util-1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

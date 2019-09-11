@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core"
+      xml:lang="en" lang="en">
+
+<h:head>
+
+</h:head>
+    <title>Listagem de Clientes</title>
+    <link rel="stylesheet" type="text/css" href="css/site.css"></link>
+<h:body>
+    <h:form>
+        <h:dataTable value="#{cli.clientes}" var="cliente" styleClass="listagem" headerClass="header" rowClasses="coluna1, coluna2">
+            <h:column>
+                <f:facet name="header">
+                    <h:outputText value="Código"></h:outputText>
+                </f:facet>
+                <h:outputText value="#{cliente.id}"></h:outputText>
+            </h:column>
+            <h:column>
+                <f:facet name="header">
+                    <h:outputText value="Nome"></h:outputText>
+                </f:facet>
+                <h:outputText value="#{cliente.nome}"></h:outputText>
+            </h:column>
+            <h:column>
+                <f:facet name="header">
+                    <h:outputText value="E-mail"></h:outputText>
+                </f:facet>
+                <h:outputText value="#{cliente.email}"></h:outputText>
+            </h:column>
+            <h:column>
+                <f:facet name="header">
+                    <h:outputText value="Ações"></h:outputText>
+                </f:facet>
+                <h:commandButton value="[Editar]" action="atualizar.xhtml" actionListener="#{cli.selecionar}"></h:commandButton>
+                <h:commandButton value="[Apagar]" action="excluir.xhtml" actionListener="#{cli.selecionar}"></h:commandButton>
+            </h:column>
+        </h:dataTable>
+    </h:form>
+    <br/>
+    <h:commandButton value="Cadastrar" action="inserir.xhtml" actionListener="#{cli.insert}"></h:commandButton>
+</h:body>
+</html>

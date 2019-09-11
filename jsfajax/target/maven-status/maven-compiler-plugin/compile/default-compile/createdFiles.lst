@@ -1,0 +1,8 @@
+br\com\devmedia\unitedburger\service\NotificacaoService.class
+br\com\devmedia\unitedburger\service\ContatoService.class
+br\com\devmedia\unitedburger\domain\dao\ContatoDAO.class
+br\com\devmedia\unitedburger\domain\model\Contato.class
+br\com\devmedia\unitedburger\domain\model\Notificacao.class
+br\com\devmedia\unitedburger\domain\dao\JpaUtil.class
+br\com\devmedia\unitedburger\domain\bean\ContatoBean.class
+br\com\devmedia\unitedburger\domain\dao\NotificacaoDAO.class

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="REST-Notas:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="rest-notas-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="REST-Notas:war exploded" />
+    </root>
+  </artifact>
+</component>

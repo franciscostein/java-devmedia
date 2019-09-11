@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<f:metadata>
+    <f:viewParam name="id" value="#{notaBean.id}" />
+    <f:event type="preRenderView" listener="#{notaBean.initDetalhes}" />
+</f:metadata>
+
+<h:head>
+    <title>DevMedia - Notas</title>
+</h:head>
+<h:body>
+    <h:form>
+        <h:panelGroup>
+            <p:outputLabel for="id" value="Id: "/>
+            <h:inputText id="id" value="#{notaBean.nota.id}"/>
+        </h:panelGroup>
+        <br></br>
+        <h:panelGroup>
+            <p:outputLabel for="title" value="Título: "/>
+            <h:inputText id="title" value="#{notaBean.nota.title}"/>
+        </h:panelGroup>
+        <br></br>
+        <h:panelGroup>
+            <p:outputLabel for="body" value="Corpo: "/>
+            <h:inputText id="body" value="#{notaBean.nota.body}"/>
+        </h:panelGroup>
+        <br/>
+        <h:commandButton value="Salvar" action="#{notaBean.editar()}"/>
+    </h:form>
+</h:body>
+</html>

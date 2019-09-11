@@ -1,0 +1,3 @@
+br\com\devmedia\curso\resource\rest\CursoRestController.class
+br\com\devmedia\curso\service\CursoService.class
+br\com\devmedia\curso\service\CursoServiceImpl.class

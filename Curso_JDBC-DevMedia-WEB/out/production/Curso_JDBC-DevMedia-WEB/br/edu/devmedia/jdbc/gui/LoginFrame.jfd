@@ -1,0 +1,43 @@
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :p:60:p, par l:::p {comp label1:::p::p, comp txtUsuario::::258:x, comp label2::l:p::p, seq t {comp btnLogin:::p:80:p, space u:::p, comp btnSair:::p:80:p}, comp txtSenha::::258:x}, space ::65:x}}"
+			"$verticalGroup": "par l {seq l {space :p:35:p, comp label1:::p::p, space :::p, comp txtUsuario:::p::p, space :p:9:p, comp label2:::p::p, space :::p, comp txtSenha:::p::p, space :p:37:p, par b {comp btnSair::b:p::p, comp btnLogin::b:p::p}, space ::37:x}}"
+		} ) {
+			name: "this"
+			"resizable": false
+			"$locationPolicy": 1
+			"$sizePolicy": 1
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "txtUsuario"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnSair"
+				"text": "Sair"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnSairActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Usuário"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Senha"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnLogin"
+				"text": "Acessar"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnLoginActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JPasswordField" ) {
+				name: "txtSenha"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 5, 0 )
+			"size": new java.awt.Dimension( 385, 265 )
+		} )
+	}
+}

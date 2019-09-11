@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:22:28:54 -0300] "GET /cadastro HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:22:28:55 -0300] "GET /cadastro/ HTTP/1.1" 200 9068 http-bio-8080-exec-2 849
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:22:28:55 -0300] "GET /cadastro/resources/bootstrap/3.3.7/css/bootstrap.min.css HTTP/1.1" 200 121200 http-bio-8080-exec-3 53
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:22:28:55 -0300] "GET /cadastro/javax.faces.resource/js/jquery.mask.min.js.xhtml HTTP/1.1" 200 4860 http-bio-8080-exec-7 10
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:22:28:55 -0300] "GET /cadastro/javax.faces.resource/js/jquery.maskMoney.min.js.xhtml HTTP/1.1" 200 6423 http-bio-8080-exec-8 15
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:22:28:55 -0300] "GET /cadastro/javax.faces.resource/js/additional-methods.min.js.xhtml HTTP/1.1" 200 17827 http-bio-8080-exec-8 4
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:22:28:55 -0300] "GET /cadastro/javax.faces.resource/bootstrap/3.3.7/js/bootstrap.min.js.xhtml HTTP/1.1" 200 37090 http-bio-8080-exec-6 18
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:22:28:55 -0300] "GET /cadastro/javax.faces.resource/js/jquery.validate.min.js.xhtml HTTP/1.1" 200 23099 http-bio-8080-exec-9 23
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:22:28:55 -0300] "GET /cadastro/javax.faces.resource/js/jquery-3.2.1.min.js.xhtml HTTP/1.1" 200 86752 http-bio-8080-exec-5 32
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:22:28:55 -0300] "GET /cadastro/javax.faces.resource/css/stylesheet.css.xhtml HTTP/1.1" 200 41 http-bio-8080-exec-4 33
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:22:28:55 -0300] "GET /cadastro/javax.faces.resource/js/script.js.xhtml HTTP/1.1" 200 1055 http-bio-8080-exec-8 11
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:22:28:55 -0300] "GET /cadastro/javax.faces.resource/js/localization/messages_pt_BR.min.js.xhtml HTTP/1.1" 200 5422 http-bio-8080-exec-10 3
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:22:28:55 -0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-5 0
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:22:28:55 -0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-5 0
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:22:29:55 -0300] "POST /cadastro/index.xhtml HTTP/1.1" 200 1728 http-bio-8080-exec-9 1071

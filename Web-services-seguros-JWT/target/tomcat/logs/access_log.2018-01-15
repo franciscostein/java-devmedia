@@ -1,0 +1,7 @@
+127.0.0.1 - - [15/Jan/2018:09:14:41 -0300] "POST /segurancajwt/login HTTP/1.1" 200 - http-bio-8443-exec-1 3376
+127.0.0.1 - - [15/Jan/2018:09:23:45 -0300] "POST /segurancajwt/login HTTP/1.1" 200 - http-bio-8443-exec-1 3117
+127.0.0.1 - - [15/Jan/2018:09:25:47 -0300] "POST /segurancajwt/login HTTP/1.1" 200 - http-bio-8443-exec-1 3281
+127.0.0.1 - - [15/Jan/2018:09:26:17 -0300] "POST /segurancajwt/login HTTP/1.1" 200 - http-bio-8443-exec-1 3435
+127.0.0.1 - - [15/Jan/2018:09:43:46 -0300] "POST /segurancajwt/login HTTP/1.1" 200 - http-bio-8443-exec-1 3372
+0:0:0:0:0:0:0:1 - - [15/Jan/2018:10:18:53 -0300] "GET /segurancajwt/marcas?nome=fi HTTP/1.1" 200 267 http-bio-8080-exec-2 3127
+0:0:0:0:0:0:0:1 - - [15/Jan/2018:10:18:58 -0300] "GET /segurancajwt/marcas?nome=f HTTP/1.1" 200 704 http-bio-8080-exec-3 28

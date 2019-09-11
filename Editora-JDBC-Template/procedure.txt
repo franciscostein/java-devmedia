@@ -1,0 +1,18 @@
+USE `editora-db`;
+DROP procedure IF EXISTS `procedure_uppercase_titulo`;
+
+DELIMITER $$
+USE `editora-db`$$
+CREATE PROCEDURE `procedure_uppercase_titulo` (IN idLivro INT)
+BEGIN
+	UPDATE
+		LIVROS
+	SET
+		TITULO = UPPER(TITULO)
+	WHERE
+		ID_LIVRO = idLivro;
+END
+$$
+
+DELIMITER ;
+

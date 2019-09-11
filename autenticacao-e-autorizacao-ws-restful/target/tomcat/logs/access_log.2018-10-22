@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [22/Oct/2018:15:09:59 -0300] "POST /exemplo/webapi/usuarios HTTP/1.1" 400 214 http-bio-8080-exec-2 509
+0:0:0:0:0:0:0:1 - - [22/Oct/2018:15:10:13 -0300] "POST /exemplo/webapi/usuarios HTTP/1.1" 400 394 http-bio-8080-exec-4 8
+0:0:0:0:0:0:0:1 - - [22/Oct/2018:15:11:27 -0300] "POST /exemplo/webapi/usuarios HTTP/1.1" 500 20107 http-bio-8080-exec-6 1474
+0:0:0:0:0:0:0:1 - - [22/Oct/2018:15:12:30 -0300] "POST /exemplo/webapi/usuarios HTTP/1.1" 201 92 http-bio-8080-exec-2 4099
+0:0:0:0:0:0:0:1 - - [22/Oct/2018:15:13:30 -0300] "POST /exemplo/webapi/usuarios HTTP/1.1" 201 94 http-bio-8080-exec-5 15
+0:0:0:0:0:0:0:1 - - [22/Oct/2018:15:14:09 -0300] "POST /exemplo/webapi/usuarios HTTP/1.1" 201 92 http-bio-8080-exec-6 13
+0:0:0:0:0:0:0:1 - - [22/Oct/2018:15:15:23 -0300] "POST /exemplo/webapi/usuarios HTTP/1.1" 400 76 http-bio-8080-exec-2 715
+0:0:0:0:0:0:0:1 - - [22/Oct/2018:15:15:36 -0300] "POST /exemplo/webapi/usuarios HTTP/1.1" 400 76 http-bio-8080-exec-4 4
+0:0:0:0:0:0:0:1 - - [22/Oct/2018:15:15:48 -0300] "POST /exemplo/webapi/usuarios HTTP/1.1" 201 82 http-bio-8080-exec-6 2581
+0:0:0:0:0:0:0:1 - - [22/Oct/2018:15:58:53 -0300] "POST /exemplo/webapi/usuarios/3/imoveis HTTP/1.1" 403 82 http-bio-8080-exec-2 10641
+0:0:0:0:0:0:0:1 - - [22/Oct/2018:15:59:05 -0300] "POST /exemplo/webapi/usuarios/4/imoveis HTTP/1.1" 201 120 http-bio-8080-exec-3 238
+0:0:0:0:0:0:0:1 - - [22/Oct/2018:17:45:38 -0300] "POST /exemplo/webapi/usuarios/4/imoveis HTTP/1.1" 201 115 http-bio-8080-exec-2 3998

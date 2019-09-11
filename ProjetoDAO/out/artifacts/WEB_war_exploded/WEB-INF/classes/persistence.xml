@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml..."
+             version="2.0">
+
+    <persistence-unit name="PadraoDTO" transaction-type="JTA">
+
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <class>projetodao.dto.ClienteDTO</class>
+        <class>projetodao.dto.OsDTO</class>
+
+        <properties>
+            <property name="javax.persistence.jdbc.url"
+                      value="jdbc:mysql://localhost:3306/padraodao?createDatabaseIfNotExist=true"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value="masterkey"/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL57Dialect"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/> <!-- Propriedade para criar ou alterar tabelas automaticamente -->
+        </properties>
+    </persistence-unit>
+</persistence>
